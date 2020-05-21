@@ -12,10 +12,16 @@ const InstallOptimizely = () => {
         <Layout>
             <Sider>Sider</Sider>
             <Layout>
-                <Header className="header">Header</Header>
+                <Header className="header">Optimizely Learning Environment</Header>
                 <Content>
                     <LessonList>
-                        <LessonListItem content = "Check out the app here" />
+                        <LessonListItem 
+                            stepTitle = "Before We Start the Tutorial" 
+                            content = 
+                                "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — 
+                                but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering 
+                                it will give you a deep understanding of React." 
+                        />
                         <LessonListItem content = "App code is located at" />
                         <LessonListItem manualCheck content = "This is a manual check item" />
                     </LessonList>
